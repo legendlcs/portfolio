@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.671);
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    font-display: bold;
+    color: white;
+}
+
+nav ul li {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 30px;
+}
+
+.main h1 {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 80px; 
+}
+
+.main p {
+    text-align: center; 
+    font-size: 50px;
+}
+
+/* body {
+    background-image: url("IMG_0815.jpeg");
+    background-size: cover;
+    background-attachment: fixed;   
+} */
+
+.about {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 180px;
+    font-size: 20px;
+    background-color: gray;
+    height: 400px;
+}
+
+/* .about p{
+    padding: 10px;
+} */
+
+.circular-image {
+    margin: auto;
+    /* position: relative; */
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular-image img {
+    width: 100%;
+    height: auto;
+    margin-top: -65px;
+  }
+
+  .about img {
+      height: 40px;
+  }
+
+  .cv {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .projects {   
+      text-align: center;
+  }
+
+  .tennis_sec {
+      font-size: 20px;
+      text-align: center;
+      float: left;
+      margin-left: 300px;
+      border-radius: 12px;
+      background-color: white;
+      color: black;
+      width: 400px;
+  }
+
+  .beatbox_sec {
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-right: 300px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    width: 400px;
+  }
+
+  .beatbox_sec img{
+      height: 100px;
+  }
